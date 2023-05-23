@@ -1,0 +1,38 @@
+{
+  "name": "blank-vue",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "dev": "node node_modules/cross-env/dist/bin/cross-env.js NODE_ENV=development node_modules/webpack/bin/webpack.js --progress --hide-modules --config=webpack.config.js",
+    "watch": "node node_modules/cross-env/dist/bin/cross-env.js NODE_ENV=development node_modules/webpack/bin/webpack.js --watch --progress --hide-modules --config=webpack.config.js",
+    "hot": "node node_modules/cross-env/dist/bin/cross-env.js NODE_ENV=development node_modules/webpack-dev-server/bin/webpack-dev-server.js --inline --hot --config=webpack.config.js",
+    "production": "node node_modules/cross-env/dist/bin/cross-env.js NODE_ENV=production node_modules/webpack/bin/webpack.js --progress --hide-modules --config=webpack.config.js"
+  },
+  "main": "index.js",
+  "author": "Joey Emery",
+  "license": "ISC",
+  "dependencies": {
+    "@svgdotjs/svg.js": "^3.0.16",
+    "bootstrap-sass": "^3.4.1",
+    "card": "^2.4.0",
+    "cross-env": "^3.2.3",
+    "es6-promise": "^4.2.8",
+    "ityped": "^1.0.3",
+    "jquery": "^3.4.1",
+    "laravel-mix": "^0.8.8",
+    "moment": "^2.29.4",
+    "node-sass": "^4.5.0",
+    "owl.carousel": "^2.3.4",
+    "progressbar.js": "^1.0.1",
+    "pusher-js": "^7.0.0",
+    "svg.js": "^2.7.1",
+    "sweetalert2": "^10.3.5",
+    "swiped": "^0.1.4",
+    "vue": "^2.6.10",
+    "vue-router": "^3.1.2",
+    "vuex": "^3.1.1"
+  },
+  "devDependencies": {
+    "vue-template-compiler": "^2.6.10"
+  }
+}

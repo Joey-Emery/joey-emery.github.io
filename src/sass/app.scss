@@ -1,0 +1,22 @@
+/*
+	Core
+*/
+@import 'fonts';
+@import 'variables';
+@import 'mixins';
+@import 'base';
+
+/*
+	Vendor
+*/
+@import 'node_modules/bootstrap-sass/assets/stylesheets/bootstrap';
+
+/*
+	Components
+*/
+@import 'components/header';
+
+/*
+	Pages
+*/
+@import 'pages/home';
