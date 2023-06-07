@@ -43,8 +43,8 @@
 					<div class="row">
 						<div class="col-md-8">
 							<h2>I'm <span>Joey Emery,</span> a full-stack developer</h2>
-							<p>I help you build brand for your business at an affordable price. Thousands of clients have procured exceptional results while working with our dedicated team. when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
-							<p>Delivering work within time and budget which meets client’s requirements is our moto. Lorem Ipsum has been the industry's standard dummy text ever when an unknown printer took a galley.</p>
+							<p>I’m an enthusiastic and driven full-stack developer who has worked across every facet of the industry, from design and UX to building complicated, self-sufficient backends using a wide array of technologies to accomplish both.</p>
+							<p>Having experience in both development and design I believe gives me a unique perspective on the entire process of bringing a website or application to life and allows me to easily slot into any team or project and quickly find my footing.</p>
 						</div>
 						<div class="col-md-4">
 							<div class="quick-info">

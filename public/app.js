@@ -39066,7 +39066,7 @@ module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c
     staticClass: "row"
   }, [_c('div', {
     staticClass: "col-md-8"
-  }, [_c('h2', [_vm._v("I'm "), _c('span', [_vm._v("Joey Emery,")]), _vm._v(" a full-stack developer")]), _vm._v(" "), _c('p', [_vm._v("I help you build brand for your business at an affordable price. Thousands of clients have procured exceptional results while working with our dedicated team. when an unknown printer took a galley of type and scrambled it to make a type specimen book.")]), _vm._v(" "), _c('p', [_vm._v("Delivering work within time and budget which meets client’s requirements is our moto. Lorem Ipsum has been the industry's standard dummy text ever when an unknown printer took a galley.")])]), _vm._v(" "), _c('div', {
+  }, [_c('h2', [_vm._v("I'm "), _c('span', [_vm._v("Joey Emery,")]), _vm._v(" a full-stack developer")]), _vm._v(" "), _c('p', [_vm._v("I’m an enthusiastic and driven full-stack developer who has worked across every facet of the industry, from design and UX to building complicated, self-sufficient backends using a wide array of technologies to accomplish both.")]), _vm._v(" "), _c('p', [_vm._v("Having experience in both development and design I believe gives me a unique perspective on the entire process of bringing a website or application to life and allows me to easily slot into any team or project and quickly find my footing.")])]), _vm._v(" "), _c('div', {
     staticClass: "col-md-4"
   }, [_c('div', {
     staticClass: "quick-info"
