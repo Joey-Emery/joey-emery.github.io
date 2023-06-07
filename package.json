@@ -17,6 +17,7 @@
     "card": "^2.4.0",
     "cross-env": "^3.2.3",
     "es6-promise": "^4.2.8",
+    "glightbox": "^3.2.0",
     "ityped": "^1.0.3",
     "jquery": "^3.4.1",
     "laravel-mix": "^0.8.8",

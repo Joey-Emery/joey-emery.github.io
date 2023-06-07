@@ -13,8 +13,7 @@ window._ = require('lodash'); // Underscore
 require('bootstrap-sass'); // Bootstrap
 window.Swal = require('sweetalert2'); // Sweetalert
 window.ityped = require('ityped'); // iTyped
-
-console.log(window.ityped);
+window.GLightbox = require('glightbox'); // gLightbox
 
 /*
 |--------------------------------------------------------------------------

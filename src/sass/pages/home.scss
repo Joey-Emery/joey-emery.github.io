@@ -278,6 +278,18 @@
 			background: #212529;
 
 			.work-experience-list {
+				h4 {
+					font-size: 1em;
+					color: rgba(255, 255, 255, .6);
+					margin: 0 0 20px 0;
+					text-transform: uppercase;
+					font-weight: 300;
+					text-align: right;
+					letter-spacing: 1px;
+
+					span {color: #fff;}
+				}
+
 				.work-experience-item {
 					padding: 30px;
 					border-radius: 10px;
@@ -348,6 +360,7 @@
 				}
 
 				.work {
+					display: block;
 					border-radius: 5px;
 					overflow: hidden;
 					min-height: 300px;

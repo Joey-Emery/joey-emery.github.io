@@ -7,7 +7,7 @@
 						<div class="col-md-2">
 							<h1>Joey.</h1>
 						</div>
-						<div class="col-md-8">
+						<div class="col-md-8" v-if="false">
 							<ul>
 								<li><a href="#" class="active">Home</a></li>
 								<li><a href="#">About</a></li>
@@ -26,7 +26,7 @@
 				<h3>Hello!</h3>
 				<h2>I'm <span id="type-container"></span></h2>
 				<p>Based in Newcastle, England</p>
-				<a href="#">Hire Me</a>
+				<a href="/images/CV.docx">Download CV</a>
 			</div>
 
 			<div class="hero-mask"></div>
@@ -53,12 +53,12 @@
 								<p><strong>Age:</strong> &nbsp; 31</p>
 								<p><strong>From:</strong> &nbsp; Newcastle, England</p>
 
-								<a href="#" class="cv">Download CV</a>
+								<a href="/images/CV.docx" class="cv">Download CV</a>
 							</div>
 						</div>
 					</div>
 				</div>
-				<div class="container-fluid">
+				<div class="container-fluid" v-if="false">
 					<ul class="quick-stats">
 						<li>
 							<h2>12+</h2>
@@ -81,7 +81,7 @@
 			</div>
 		</section>
 
-		<section class="content-section services">
+		<section class="content-section services" v-if="false">
 			<div class="content-title">
 				<h3>Services</h3>
 				<h2>What I Do</h2>
@@ -160,7 +160,7 @@
 			</div>
 		</section>
 
-		<section class="content-section experience">
+		<section class="content-section experience" v-if="false">
 			<div class="content-title">
 				<h3>Experience</h3>
 				<h2>Resume</h2>
@@ -169,49 +169,50 @@
 			<div class="content-body">
 				<div class="container">
 					<div class="work-experience-list">
+						<h4>More detailed information available in <span>my CV</span></h4>
 						<div class="row">
 							<div class="col-md-6">
 								<div class="work-experience-item">
-									<span class="badge">2018 - 2023</span>
-									<h2>Senior Developer</h2>
+									<span class="badge">2020 - Present</span>
+									<h2>CTO</h2>
 									<h3>Letushost</h3>
+									<p>As one of the founders and sole developer of Letushost I was tasked with building our entire stack of hospitality focused technology. API, POS, ordering apps, etc</p>
+								</div>
+
+								<div class="work-experience-item">
+									<span class="badge">2014 - 2016</span>
+									<h2>Lead Developer</h2>
+									<h3>Molekula</h3>
 									<p>Lisque persius interesset his et, in quot quidam persequeris vim, ad mea essent possim iriure.</p>
 								</div>
 
 								<div class="work-experience-item">
-									<span class="badge">2018 - 2023</span>
-									<h2>Senior Developer</h2>
-									<h3>Letushost</h3>
-									<p>Lisque persius interesset his et, in quot quidam persequeris vim, ad mea essent possim iriure.</p>
-								</div>
-
-								<div class="work-experience-item">
-									<span class="badge">2018 - 2023</span>
-									<h2>Senior Developer</h2>
-									<h3>Letushost</h3>
+									<span class="badge">2012 - 2013</span>
+									<h2>UI/UX Designer</h2>
+									<h3>Performance Horizon</h3>
 									<p>Lisque persius interesset his et, in quot quidam persequeris vim, ad mea essent possim iriure.</p>
 								</div>
 							</div>
 
 							<div class="col-md-6">
 								<div class="work-experience-item">
-									<span class="badge">2018 - 2023</span>
-									<h2>Senior Developer</h2>
-									<h3>Letushost</h3>
+									<span class="badge">2016 - 2020</span>
+									<h2>Lead Developer</h2>
+									<h3>Codeplayground.io</h3>
 									<p>Lisque persius interesset his et, in quot quidam persequeris vim, ad mea essent possim iriure.</p>
 								</div>
 
 								<div class="work-experience-item">
-									<span class="badge">2018 - 2023</span>
-									<h2>Senior Developer</h2>
-									<h3>Letushost</h3>
+									<span class="badge">2013 - 2014</span>
+									<h2>Senior Developer &amp; Designer</h2>
+									<h3>iResources</h3>
 									<p>Lisque persius interesset his et, in quot quidam persequeris vim, ad mea essent possim iriure.</p>
 								</div>
 
 								<div class="work-experience-item">
-									<span class="badge">2018 - 2023</span>
-									<h2>Senior Developer</h2>
-									<h3>Letushost</h3>
+									<span class="badge">2011 - 2012</span>
+									<h2>Web Developer &amp; Designer</h2>
+									<h3>Givey</h3>
 									<p>Lisque persius interesset his et, in quot quidam persequeris vim, ad mea essent possim iriure.</p>
 								</div>
 							</div>
@@ -288,71 +289,88 @@
 				</div>
 
 				<div class="recent-work">
-					<h2>Tap on any project to read the <span>case study</span></h2>
+					<h2>Tap on any project for <span>more information</span></h2>
 
 					<div class="row row-xs">
 						<div class="col-md-4">
-							<div class="work" style="background: #c3a75b;">
-								<img src="/images/logos/ora.png" style="width: 45%;" />
+							<a href="/images/work/ora-app-home.png" class="work glightbox" data-gallery="ora-app" style="background: #c3a75b;">
+								<img src="/public/images/logos/ora.png" style="width: 45%;" />
 								<h3>Mobile Application</h3>
-							</div>
+							</a>
 
-							<div class="work" style="background: #222;">
-								<img src="/images/logos/hadrianstower.svg" style="width: 55%;" />
+							<a href="/images/work/ora-app-rewards.png" class="work glightbox" data-gallery="ora-app" style="display: none;"></a>
+
+							<a href="/images/work/tower-home.png" class="work glightbox" data-gallery="tower" style="background: #222;">
+								<img src="/public/images/logos/hadrianstower.svg" style="width: 55%;" />
 								<h3>Mobile Application</h3>
-							</div>
+							</a>
 
-							<div class="work" style="background: #fff;">
-								<img src="/images/logos/diamond.png" style="width: 50%;" />
+							<a href="/images/work/tower-profile.png" class="work glightbox" data-gallery="tower" style="display: none;"></a>
+
+							<div class="work" style="background: #fff;" v-if="false">
+								<img src="/public/images/logos/diamond.png" style="width: 50%;" />
 								<h3 style="color: rgba(0, 0, 0, .7)">Website &amp; Branding</h3>
 							</div>
 
-							<div class="work" style="background: #1A1A1A;">
-								<img src="/images/logos/letushost.png" style="width: 60%;" />
+							<a href="/images/work/manage-reports.png" class="work glightbox" data-gallery="manage" style="background: #1A1A1A;">
+								<img src="/public/images/logos/letushost.png" style="width: 60%;" />
 								<h3>Full Management Suite</h3>
-							</div>
+							</a>
+
+							<a href="/images/work/manage-menu.png" class="work glightbox" data-gallery="manage" style="display: none;"></a>
 						</div>
 						<div class="col-md-4">
-							<div class="work" style="background: #0B1517;">
-								<img src="/images/logos/buddha.png" style="width: 45%;" />
+							<a href="/images/work/buddha-website-home.png" class="work glightbox" data-gallery="buddha-website" style="background: #0B1517;">
+								<img src="/public/images/logos/buddha.png" style="width: 45%;" />
 								<h3>Website &amp; Branding</h3>
-							</div>
+							</a>
 
-							<div class="work" style="background: #9d191b;">
-								<img src="/images/logos/bar52.webp" style="width: 50%;" />
+							<a href="/images/work/buddha-website-whatson.png" class="work glightbox" data-gallery="buddha-website" style="display: none;"></a>
+
+							<div class="work" style="background: #9d191b;" v-if="false">
+								<img src="/public/images/logos/bar52.webp" style="width: 50%;" />
 								<h3>Mobile Application</h3>
 							</div>
 
-							<div class="work" style="background: #111;">
-								<img src="/images/logos/longhorns.png" style="width: 70%;" />
+							<div class="work" style="background: #111;" v-if="false">
+								<img src="/public/images/logos/longhorns.png" style="width: 70%;" />
 								<h3>Website &amp; Branding</h3>
 							</div>
 
-							<div class="work" style="background: #c3a75b;">
-								<img src="/images/logos/ora.png" style="width: 50%;" />
+							<a href="/images/work/ora-website-home.png" class="work glightbox" data-gallery="ora-website" style="background: #c3a75b;">
+								<img src="/public/images/logos/ora.png" style="width: 50%;" />
 								<h3>Website &amp; Branding</h3>
-							</div>
-						</div>
-						<div class="col-md-4">
-							<div class="work" style="background: #1A1A1A;">
-								<img src="/images/logos/letushost.png" style="width: 60%;" />
-								<h3>Point of Sales System</h3>
-							</div>
+							</a>
 
-							<div class="work" style="background: #111;">
-								<img src="/images/logos/davanti.png" style="width: 45%;" />
-								<h3>Website &amp; Branding</h3>
-							</div>
+							<a href="/images/work/ora-website-menu.png" class="work glightbox" data-gallery="ora-website" style="display: none;"></a>
 
-							<div class="work" style="background: #150A0E;">
-								<img src="/images/logos/privilege.png" style="width: 70%;" />
-								<h3>Mobile Application</h3>
-							</div>
-
-							<div class="work" style="background: #fff;">
-								<img src="/images/logos/dockyard.png" style="width: 100%;" />
+							<a href="/images/work/dockyard-home.png" class="work glightbox" data-gallery="dockyard" style="background: #fff;">
+								<img src="/public/images/logos/dockyard.png" style="width: 100%;" />
 								<h3 style="color: rgba(0, 0, 0, .7)">Mobile Application</h3>
-							</div>
+							</a>
+
+							<a href="/images/work/dockyard-menu.png" class="work glightbox" data-gallery="dockyard" style="display: none;"></a>
+						</div>
+						<div class="col-md-4">
+							<a href="/images/work/pos-tableplan.png" class="work glightbox" data-gallery="pos" style="background: #1A1A1A;">
+								<img src="/public/images/logos/letushost.png" style="width: 60%;" />
+								<h3>Point of Sales System</h3>
+							</a>
+
+							<a href="/images/work/pos-orders.png" class="work glightbox" data-gallery="pos" style="display: none;"></a>
+
+							<a href="/images/work/davanti-home.png" class="work glightbox" data-gallery="davanti" style="background: #111;">
+								<img src="/public/images/logos/davanti.png" style="width: 45%;" />
+								<h3>Website &amp; Branding</h3>
+							</a>
+
+							<a href="/images/work/privilege-home.webp" class="work glightbox" data-gallery="privilege" style="background: #150A0E;">
+								<img src="/public/images/logos/privilege.png" style="width: 70%;" />
+								<h3>Mobile Application</h3>
+							</a>
+
+							<a href="/images/work/privilege-map.webp" class="work glightbox" data-gallery="privilege" style="display: none;"></a>
+							<a href="/images/work/privilege-venue.webp" class="work glightbox" data-gallery="privilege" style="display: none;"></a>
 						</div>
 					</div>
 				</div>
@@ -366,6 +384,8 @@
 		mounted()
 		{
 			$('.hero').css('height', $(window).height());
+
+			console.log(window.GLightbox);
 
 			ityped.init(document.querySelector('#type-container'), {
 				showCursor: true,
@@ -381,6 +401,8 @@
 					'a Cat Dad',
 				]
 			});
+
+			const lightbox = GLightbox();
 		}
 	}
 </script>
