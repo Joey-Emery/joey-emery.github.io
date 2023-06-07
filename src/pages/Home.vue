@@ -293,39 +293,39 @@
 
 					<div class="row row-xs">
 						<div class="col-md-4">
-							<a href="/images/work/ora-app-home.png" class="work glightbox" data-gallery="ora-app" style="background: #c3a75b;">
+							<a href="/public/images/work/ora-app-home.png" class="work glightbox" data-gallery="ora-app" style="background: #c3a75b;">
 								<img src="/public/images/logos/ora.png" style="width: 45%;" />
 								<h3>Mobile Application</h3>
 							</a>
 
-							<a href="/images/work/ora-app-rewards.png" class="work glightbox" data-gallery="ora-app" style="display: none;"></a>
+							<a href="/public/images/work/ora-app-rewards.png" class="work glightbox" data-gallery="ora-app" style="display: none;"></a>
 
-							<a href="/images/work/tower-home.png" class="work glightbox" data-gallery="tower" style="background: #222;">
+							<a href="/public/images/work/tower-home.png" class="work glightbox" data-gallery="tower" style="background: #222;">
 								<img src="/public/images/logos/hadrianstower.svg" style="width: 55%;" />
 								<h3>Mobile Application</h3>
 							</a>
 
-							<a href="/images/work/tower-profile.png" class="work glightbox" data-gallery="tower" style="display: none;"></a>
+							<a href="/public/images/work/tower-profile.png" class="work glightbox" data-gallery="tower" style="display: none;"></a>
 
 							<div class="work" style="background: #fff;" v-if="false">
 								<img src="/public/images/logos/diamond.png" style="width: 50%;" />
 								<h3 style="color: rgba(0, 0, 0, .7)">Website &amp; Branding</h3>
 							</div>
 
-							<a href="/images/work/manage-reports.png" class="work glightbox" data-gallery="manage" style="background: #1A1A1A;">
+							<a href="/public/images/work/manage-reports.png" class="work glightbox" data-gallery="manage" style="background: #1A1A1A;">
 								<img src="/public/images/logos/letushost.png" style="width: 60%;" />
 								<h3>Full Management Suite</h3>
 							</a>
 
-							<a href="/images/work/manage-menu.png" class="work glightbox" data-gallery="manage" style="display: none;"></a>
+							<a href="/public/images/work/manage-menu.png" class="work glightbox" data-gallery="manage" style="display: none;"></a>
 						</div>
 						<div class="col-md-4">
-							<a href="/images/work/buddha-website-home.png" class="work glightbox" data-gallery="buddha-website" style="background: #0B1517;">
+							<a href="/public/images/work/buddha-website-home.png" class="work glightbox" data-gallery="buddha-website" style="background: #0B1517;">
 								<img src="/public/images/logos/buddha.png" style="width: 45%;" />
 								<h3>Website &amp; Branding</h3>
 							</a>
 
-							<a href="/images/work/buddha-website-whatson.png" class="work glightbox" data-gallery="buddha-website" style="display: none;"></a>
+							<a href="/public/images/work/buddha-website-whatson.png" class="work glightbox" data-gallery="buddha-website" style="display: none;"></a>
 
 							<div class="work" style="background: #9d191b;" v-if="false">
 								<img src="/public/images/logos/bar52.webp" style="width: 50%;" />
@@ -337,40 +337,40 @@
 								<h3>Website &amp; Branding</h3>
 							</div>
 
-							<a href="/images/work/ora-website-home.png" class="work glightbox" data-gallery="ora-website" style="background: #c3a75b;">
+							<a href="/public/images/work/ora-website-home.png" class="work glightbox" data-gallery="ora-website" style="background: #c3a75b;">
 								<img src="/public/images/logos/ora.png" style="width: 50%;" />
 								<h3>Website &amp; Branding</h3>
 							</a>
 
-							<a href="/images/work/ora-website-menu.png" class="work glightbox" data-gallery="ora-website" style="display: none;"></a>
+							<a href="/public/images/work/ora-website-menu.png" class="work glightbox" data-gallery="ora-website" style="display: none;"></a>
 
-							<a href="/images/work/dockyard-home.png" class="work glightbox" data-gallery="dockyard" style="background: #fff;">
+							<a href="/public/images/work/dockyard-home.png" class="work glightbox" data-gallery="dockyard" style="background: #fff;">
 								<img src="/public/images/logos/dockyard.png" style="width: 100%;" />
 								<h3 style="color: rgba(0, 0, 0, .7)">Mobile Application</h3>
 							</a>
 
-							<a href="/images/work/dockyard-menu.png" class="work glightbox" data-gallery="dockyard" style="display: none;"></a>
+							<a href="/public/images/work/dockyard-menu.png" class="work glightbox" data-gallery="dockyard" style="display: none;"></a>
 						</div>
 						<div class="col-md-4">
-							<a href="/images/work/pos-tableplan.png" class="work glightbox" data-gallery="pos" style="background: #1A1A1A;">
+							<a href="/public/images/work/pos-tableplan.png" class="work glightbox" data-gallery="pos" style="background: #1A1A1A;">
 								<img src="/public/images/logos/letushost.png" style="width: 60%;" />
 								<h3>Point of Sales System</h3>
 							</a>
 
-							<a href="/images/work/pos-orders.png" class="work glightbox" data-gallery="pos" style="display: none;"></a>
+							<a href="/public/images/work/pos-orders.png" class="work glightbox" data-gallery="pos" style="display: none;"></a>
 
-							<a href="/images/work/davanti-home.png" class="work glightbox" data-gallery="davanti" style="background: #111;">
+							<a href="/public/images/work/davanti-home.png" class="work glightbox" data-gallery="davanti" style="background: #111;">
 								<img src="/public/images/logos/davanti.png" style="width: 45%;" />
 								<h3>Website &amp; Branding</h3>
 							</a>
 
-							<a href="/images/work/privilege-home.webp" class="work glightbox" data-gallery="privilege" style="background: #150A0E;">
+							<a href="/public/images/work/privilege-home.webp" class="work glightbox" data-gallery="privilege" style="background: #150A0E;">
 								<img src="/public/images/logos/privilege.png" style="width: 70%;" />
 								<h3>Mobile Application</h3>
 							</a>
 
-							<a href="/images/work/privilege-map.webp" class="work glightbox" data-gallery="privilege" style="display: none;"></a>
-							<a href="/images/work/privilege-venue.webp" class="work glightbox" data-gallery="privilege" style="display: none;"></a>
+							<a href="/public/images/work/privilege-map.webp" class="work glightbox" data-gallery="privilege" style="display: none;"></a>
+							<a href="/public/images/work/privilege-venue.webp" class="work glightbox" data-gallery="privilege" style="display: none;"></a>
 						</div>
 					</div>
 				</div>

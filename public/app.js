@@ -38921,7 +38921,7 @@ module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c
       "display": "none"
     },
     attrs: {
-      "href": "/images/work/ora-app-rewards.png",
+      "href": "/public/images/work/ora-app-rewards.png",
       "data-gallery": "ora-app"
     }
   }), _vm._v(" "), _vm._m(13), _vm._v(" "), _c('a', {
@@ -38930,7 +38930,7 @@ module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c
       "display": "none"
     },
     attrs: {
-      "href": "/images/work/tower-profile.png",
+      "href": "/public/images/work/tower-profile.png",
       "data-gallery": "tower"
     }
   }), _vm._v(" "), (false) ? _c('div', {
@@ -38955,7 +38955,7 @@ module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c
       "display": "none"
     },
     attrs: {
-      "href": "/images/work/manage-menu.png",
+      "href": "/public/images/work/manage-menu.png",
       "data-gallery": "manage"
     }
   })]), _vm._v(" "), _c('div', {
@@ -38966,7 +38966,7 @@ module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c
       "display": "none"
     },
     attrs: {
-      "href": "/images/work/buddha-website-whatson.png",
+      "href": "/public/images/work/buddha-website-whatson.png",
       "data-gallery": "buddha-website"
     }
   }), _vm._v(" "), (false) ? _c('div', {
@@ -38999,7 +38999,7 @@ module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c
       "display": "none"
     },
     attrs: {
-      "href": "/images/work/ora-website-menu.png",
+      "href": "/public/images/work/ora-website-menu.png",
       "data-gallery": "ora-website"
     }
   }), _vm._v(" "), _vm._m(17), _vm._v(" "), _c('a', {
@@ -39008,7 +39008,7 @@ module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c
       "display": "none"
     },
     attrs: {
-      "href": "/images/work/dockyard-menu.png",
+      "href": "/public/images/work/dockyard-menu.png",
       "data-gallery": "dockyard"
     }
   })]), _vm._v(" "), _vm._m(18)])])])])])
@@ -39337,7 +39337,7 @@ module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c
       "background": "#c3a75b"
     },
     attrs: {
-      "href": "/images/work/ora-app-home.png",
+      "href": "/public/images/work/ora-app-home.png",
       "data-gallery": "ora-app"
     }
   }, [_c('img', {
@@ -39355,7 +39355,7 @@ module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c
       "background": "#222"
     },
     attrs: {
-      "href": "/images/work/tower-home.png",
+      "href": "/public/images/work/tower-home.png",
       "data-gallery": "tower"
     }
   }, [_c('img', {
@@ -39373,7 +39373,7 @@ module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c
       "background": "#1A1A1A"
     },
     attrs: {
-      "href": "/images/work/manage-reports.png",
+      "href": "/public/images/work/manage-reports.png",
       "data-gallery": "manage"
     }
   }, [_c('img', {
@@ -39391,7 +39391,7 @@ module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c
       "background": "#0B1517"
     },
     attrs: {
-      "href": "/images/work/buddha-website-home.png",
+      "href": "/public/images/work/buddha-website-home.png",
       "data-gallery": "buddha-website"
     }
   }, [_c('img', {
@@ -39409,7 +39409,7 @@ module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c
       "background": "#c3a75b"
     },
     attrs: {
-      "href": "/images/work/ora-website-home.png",
+      "href": "/public/images/work/ora-website-home.png",
       "data-gallery": "ora-website"
     }
   }, [_c('img', {
@@ -39427,7 +39427,7 @@ module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c
       "background": "#fff"
     },
     attrs: {
-      "href": "/images/work/dockyard-home.png",
+      "href": "/public/images/work/dockyard-home.png",
       "data-gallery": "dockyard"
     }
   }, [_c('img', {
@@ -39451,7 +39451,7 @@ module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c
       "background": "#1A1A1A"
     },
     attrs: {
-      "href": "/images/work/pos-tableplan.png",
+      "href": "/public/images/work/pos-tableplan.png",
       "data-gallery": "pos"
     }
   }, [_c('img', {
@@ -39467,7 +39467,7 @@ module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c
       "display": "none"
     },
     attrs: {
-      "href": "/images/work/pos-orders.png",
+      "href": "/public/images/work/pos-orders.png",
       "data-gallery": "pos"
     }
   }), _vm._v(" "), _c('a', {
@@ -39476,7 +39476,7 @@ module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c
       "background": "#111"
     },
     attrs: {
-      "href": "/images/work/davanti-home.png",
+      "href": "/public/images/work/davanti-home.png",
       "data-gallery": "davanti"
     }
   }, [_c('img', {
@@ -39492,7 +39492,7 @@ module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c
       "background": "#150A0E"
     },
     attrs: {
-      "href": "/images/work/privilege-home.webp",
+      "href": "/public/images/work/privilege-home.webp",
       "data-gallery": "privilege"
     }
   }, [_c('img', {
@@ -39508,7 +39508,7 @@ module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c
       "display": "none"
     },
     attrs: {
-      "href": "/images/work/privilege-map.webp",
+      "href": "/public/images/work/privilege-map.webp",
       "data-gallery": "privilege"
     }
   }), _vm._v(" "), _c('a', {
@@ -39517,7 +39517,7 @@ module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c
       "display": "none"
     },
     attrs: {
-      "href": "/images/work/privilege-venue.webp",
+      "href": "/public/images/work/privilege-venue.webp",
       "data-gallery": "privilege"
     }
   })])
