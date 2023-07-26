@@ -39052,7 +39052,7 @@ module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c
     }
   })]), _vm._v(" "), _c('p', [_vm._v("Based in Newcastle, England")]), _vm._v(" "), _c('a', {
     attrs: {
-      "href": "/images/CV.docx"
+      "href": "/images/CV.pdf"
     }
   }, [_vm._v("Download CV")])])
 },function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
@@ -39074,10 +39074,10 @@ module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c
     attrs: {
       "href": "#"
     }
-  }, [_vm._v("joey@letushost.co.uk")])]), _vm._v(" "), _c('p', [_c('strong', [_vm._v("Age:")]), _vm._v("   31")]), _vm._v(" "), _c('p', [_c('strong', [_vm._v("From:")]), _vm._v("   Newcastle, England")]), _vm._v(" "), _c('a', {
+  }, [_vm._v("joeyemery90@gmail.com")])]), _vm._v(" "), _c('p', [_c('strong', [_vm._v("Age:")]), _vm._v("   31")]), _vm._v(" "), _c('p', [_c('strong', [_vm._v("From:")]), _vm._v("   Newcastle, England")]), _vm._v(" "), _c('a', {
     staticClass: "cv",
     attrs: {
-      "href": "/images/CV.docx"
+      "href": "/images/CV.pdf"
     }
   }, [_vm._v("Download CV")])])])])])
 },function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
